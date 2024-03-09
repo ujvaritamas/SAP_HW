@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Define the file path using an environment variable
 file_path = os.environ.get('FILE_PATH')
 
-@app.route('/read_file')
+@app.route('/')
 def read_file():
     try:
         # Read the contents of the file
