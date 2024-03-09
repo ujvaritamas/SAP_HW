@@ -8,7 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-COPY example.txt /test/exampledir/example.txt
+#COPY example.txt /test/exampledir/example.txt
 
 ENV FILE_PATH=/test/exampledir/example.txt
 
