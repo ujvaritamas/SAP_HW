@@ -24,3 +24,5 @@ This app listening on port 8080 and read a file. (Filepath defined in FILE_PATH 
 It reads a file whose filepath is defined in the FILE_PATH environment variable.
 
 The image uploaded to https://hub.docker.com/repository/docker/tamasujvari/flask-app-sap/general
+
+Info: makefile created to automate some manual step.
