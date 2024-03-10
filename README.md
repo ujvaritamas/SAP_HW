@@ -14,7 +14,7 @@ For testing : create the file manually (default location)
 2. Test with Docker
     ```bash
    docker build -t tamasujvari/flask-app-sap .
-   docker run -p 8080:8080 --name flask-app-cont -d flask-app
+   docker run -p 8080:8080 --name flask-app-cont -d tamasujvari/flask-app-sap
 
 For testing : enter the container and create the file manually (default location)
 
